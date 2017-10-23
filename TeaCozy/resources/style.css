@@ -1,0 +1,232 @@
+/*div{
+  border: 1px solid white;
+}*/
+
+body{
+  background-color: black;
+  opacity: 0.9;
+  font-family: Helvetica;
+  margin: 0px 0px 0px 0px;
+}
+
+.seashell{
+  color:seashell;
+}
+
+.text{
+  color: seashell;
+  font-size: 22px;
+  opacity: 1;
+}
+
+/*header*/
+.header{
+  display: flex;
+  position: fixed;
+  flex-wrap: wrap;
+  height: 69px;
+  width: 100%;
+  margin: 0px 0px 0px 0px;
+  align-items: center;
+  border-bottom: 1px solid seashell;
+  z-index: 5;
+  background-color: black;
+}
+
+.header .logo{
+  height: 50px;
+  padding-left: 10px;
+  margin-right: auto;
+}
+
+.logo img{
+  height: 100%
+  width: auto;
+  max-height: 50px;
+}
+
+.header nav{
+  display: flex;
+  text-decoration: underline;
+  padding-right: 10px;
+  margin-left: auto;
+}
+
+.header span{
+  padding-left: 20px;
+  padding-right: 10px;
+}
+
+.seashell a{
+  font-size: 22px;
+}
+
+a:link{
+  color: seashell;
+}
+
+a:visited{
+  color: seashell;
+}
+
+/*content*/
+.content{
+  position: relative;
+  top: 70px;
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+#Mission{
+  background-image: url("images/img-mission-background.jpg");
+  height: 700px;
+  max-width: 1200px;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  display: flex;
+}
+
+#Mission .text{
+
+  background-color: black;
+  text-align: center;
+  width: 1200px;
+
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+
+#FeaturedTea{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 1000px;
+  text-align: center;
+
+  padding-top: 70px;
+}
+
+#FeaturedTea .imagelist{
+  display: flex;
+  width: 1000px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+#FeaturedTea .imagelist2{
+  display: flex;
+  width: 680px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+.images{
+  width: 300px;
+}
+
+.images .text{
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.photo-1,.photo-2,.photo-3,.photo-4,.photo-5{
+  height: 200px;
+  width: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.photo-1{
+  background-image: url("images/img-berryblitz.jpg");
+}
+
+.photo-2{
+  background-image: url("images/img-spiced-rum.jpg");
+}
+
+.photo-3{
+  background-image: url("images/img-donut.jpg");
+}
+
+.photo-4{
+  background-image: url("images/img-myrtle-ave.jpg");
+}
+
+.photo-5{
+  background-image: url("images/img-bedford-bizarre.jpg");
+}
+
+
+
+#Locations{
+  background-image: url("images/img-locations-background.jpg");
+  height: 500px;
+  width: 1200px;
+  background-repeat: no-repeat;
+
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+
+  text-align: center;
+  margin-top: 70px;
+}
+
+#Locations .text{
+  margin-top: auto;
+  margin-bottom: 15px;
+  padding-bottom: 0px;
+}
+
+#Locations .text h2{
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.addresses{
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  width: 980px;
+  margin-top: 0px;
+  margin-bottom: auto;
+  justify-content: space-between;
+}
+
+.address{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+  width: 300px;
+  height: 300px;
+}
+
+#contact{
+  height: 200px;
+  text-align: center;
+  width: 1200px;
+}
+
+#Footer{
+  margin-top: 100px;
+  padding-left: 20px;
+  margin-bottom: 30px;
+}
+
+#Footer h5{
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
